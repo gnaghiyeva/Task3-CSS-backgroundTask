@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header start*/
+.app_header{
+    background-color: dodgerblue;
+    padding: 20px 60px;
+}
+
+.app_header_top, .app_header_bottom{
+    display: block;
+}
+
+.app_header_top_item {
+   list-style-type: none;
+}
+
+.app_header_top_item h2{
+    color: white;
+    font-weight: bold;
+}
+.app_header_bottom li{
+    display: inline-block;
+    
+
+}
+
+.app_header_bottom li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+
+}
+
+/*header end*/
+
+/*app main section intro start*/
+.app_main{
+    margin-top: 30px;
+}
+.app_main_container_one{
+    width: 42%;
+    margin: 0 auto;
+    border: 5px solid rgba(38,176,97,255);
+    background-color: rgba(46,204,113,255);
+    height: 150px;
+}
+
+.app_main_container_one_parag{
+    padding-top: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.app_main_container_one_title{
+    float: right;
+   padding-top: 20px;
+    padding-right: 15px;
+}
+
+
+.app_main_container_two{
+    width: 26%;
+    margin: 20px auto;
+    border: 5px solid rgba(198,82,71,255);
+    background-color:rgba(231,76,60,255);
+    border-radius: 9px;
+    padding: 30px;
+    text-align: center;
+}
+
+.app_main_container_two_parag{
+    margin-top: -20px;
+    color: white;
+}
+
+.app_main_container_two_link{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+   
+    
+}
+
+/*app main section intro end*/
+
+/*app_main_section_body start*/
+.app_main_section_body{
+    border: rgba(44,62,80,255);
+    background-color: rgba(44,62,80,255);
+    padding: 40px 60px;
+}
+
+.app_main_section_body_container h1,p{
+    color: white;
+    font-size: 30px;
+}
+
+.app_main_section_body_container p{
+    padding-top: 15px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+/*app_main_section_body end*/
+
+/*app footer start*/
+.app_footer{
+    text-align: center;
+    background-color: rgba(28,34,36,255);
+    padding: 20px 0 ;
+    
+}
+.app_footer ul li{
+    display: inline-block;   
+}
+
+.app_footer ul li a{
+    display: inline-block;   
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(40,96,132,255) ;
+    
+}
+
+
+
+/*app footer end*/
